@@ -1,0 +1,78 @@
+* ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    padding: 0.5rem;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+main {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    padding: 2.5rem;
+    width: 300px;
+}
+img {
+    width: 300px;
+    border-radius: 1rem;
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+h2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+.text2 {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+div > img {
+    width: 30px;
+}
+p {
+    color: hsl(215, 51%, 70%);
+}
+span {
+    color:hsl(0, 0%, 100%);
+}
+.linea {
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+    margin: 0.1rem;
+}
+.container img {
+    height: 20px;
+    width: 20px;
+}
+footer {
+    margin-top: 0.5rem;
+}
+
